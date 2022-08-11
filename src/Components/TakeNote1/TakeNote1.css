@@ -1,0 +1,56 @@
+.savenotes{
+    /* border: 1px solid rgb(230, 39, 39); */
+    width: 45vw;
+    height: 7vh;
+    border-radius: 8px;
+    /* margin: auto; */
+    /* margin-top: 50px; */
+    /* position: relative; */
+    /* top: 40px; */
+    /* left: 40px; */
+    align-items: center;
+}
+
+.inputnotes{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative;
+    top: 5px; */
+    padding-right: 10px;
+}
+
+#note{
+    width: 70%;
+    height: 50%;
+    border: none;
+    /* outline: none; */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.imagenotes1{
+    width : 20px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .savenotes{
+        width: 81vw;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 860px){
+    .savenotes{
+        width: 81vw;
+    }
+}
