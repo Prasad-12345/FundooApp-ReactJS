@@ -1,0 +1,95 @@
+.parent{
+    border: 1px solid rgb(142, 137, 137);
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#search{
+    width: 80%;
+    height: 95%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+
+input{
+    outline: none;
+}
+
+.child1{
+    /* border: 1px solid red; */
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.searchbox{
+    /* border: 1px solid rgb(211, 23, 23); */
+    width: 50%;
+    height: 100%;
+    padding-top: 5px;
+}
+
+.inputsearch{
+    height: 95%;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.child2{
+    border: 1px solid rgb(210, 207, 207);
+    background-color: whitesmoke;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    align-items: center;
+    position: relative;
+    top: 8px;
+}
+
+.child3{
+    /* border: 1px solid red; */
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.child4{
+    /* border: 1px solid red; */
+    width: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.keep{
+     font-size: x-large;
+     font-weight: 500;
+}
+
+.imagenotes{
+    width: 30px;
+    height: 25px;
+}
+
+.imagenotessearch{
+    width: 30px;
+    height: 25px;
+    background-color: whitesmoke;
+    padding-left: 10px;
+}
